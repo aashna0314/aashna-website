@@ -37,11 +37,11 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   flex-shrink: 0;
   width: auto;
   height: auto;
-  max-width: 6rem;
+  max-width: 7.5rem;
   border-radius: 6px;
 }
 
-@media (min-width: 640px) { .profile { max-width: 7.5rem; } }
+@media (min-width: 640px) { .profile { max-width: 9rem; } }
 
 .intro-text {
   flex: 1;
