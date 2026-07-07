@@ -36,6 +36,25 @@ function renderBooks(items) {
     .join("")}</div>`;
 }
 
+function escapeHtml(text) {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function renderStoryBody(w) {
+  const text = w.text || w.content || w.excerpt || "";
+  if (!text) return "";
+  return text
+    .split(/\n\s*\n/)
+    .map((p) => p.trim())
+    .filter(Boolean)
+    .map((p) => `<p>${escapeHtml(p)}</p>`)
+    .join("");
+}
+
 function renderWriting(items) {
   const el = document.getElementById("writing-list");
   if (!items.length) {
@@ -45,10 +64,13 @@ function renderWriting(items) {
   el.innerHTML = items
     .map(
       (w) => `
-    <div class="writing-item">
-      <p><strong>${w.title}</strong> <em>· ${w.type}, ${w.date}</em></p>
-      <p>${w.excerpt}</p>
-    </div>`
+    <article class="writing-item">
+      <header class="writing-header">
+        <h2 class="writing-title">${escapeHtml(w.title)}</h2>
+        <p class="writing-meta"><em>${escapeHtml(w.type)} · ${escapeHtml(w.date)}</em></p>
+      </header>
+      <div class="writing-body">${renderStoryBody(w)}</div>
+    </article>`
     )
     .join("");
 }
