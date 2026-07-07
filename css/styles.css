@@ -49,7 +49,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
     gap: 1rem;
   }
 
-  .profile { max-width: 6.5rem; }
+  .profile { max-width: 5.5rem; }
 
   h1 {
     font-size: 1.5rem;
@@ -61,11 +61,11 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   flex-shrink: 0;
   width: auto;
   height: auto;
-  max-width: 8.5rem;
+  max-width: 7.5rem;
   border-radius: 6px;
 }
 
-@media (min-width: 640px) { .profile { max-width: 10rem; } }
+@media (min-width: 640px) { .profile { max-width: 8.5rem; } }
 
 .intro-text {
   flex: 1;
