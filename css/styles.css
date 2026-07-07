@@ -17,27 +17,13 @@ a:hover { text-decoration: underline; }
 img { display: block; max-width: 100%; }
 button { font: inherit; cursor: pointer; border: none; background: none; }
 
-.header { padding: 1.5rem 1.5rem 1.25rem; }
-@media (min-width: 640px) { .header { padding: 2rem 2rem 1.5rem; } }
-
-.nav-left {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem 2rem;
-  font-size: 13px;
-}
-
-@media (min-width: 640px) { .nav-left { font-size: 14px; } }
-
 .main {
-  padding: 0 1.5rem;
+  padding: 1.5rem 1.5rem 0;
   max-width: 48rem;
   margin-inline: auto;
 }
 
-@media (min-width: 640px) { .main { padding: 0 2.5rem; } }
-
-.intro { margin-top: 1rem; }
+@media (min-width: 640px) { .main { padding: 2rem 2.5rem 0; } }
 
 .intro-layout {
   display: flex;
