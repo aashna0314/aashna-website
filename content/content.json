@@ -2,24 +2,31 @@
   "drawings": [
     {
       "id": "drawing-1",
-      "title": "Ocean at dusk",
-      "caption": "Halifax harbour, sunset.",
-      "image": "assets/images/drawings/ocean-dusk.svg",
+      "title": "Drawing 1",
+      "caption": "Pencil sketch.",
+      "image": "assets/images/drawings/drawing-1.jpg",
       "date": "2026"
     },
     {
       "id": "drawing-2",
-      "title": "Travel sketch",
-      "caption": "Mountains from a trip.",
-      "image": "assets/images/drawings/travel-sketch.svg",
+      "title": "Drawing 2",
+      "caption": "Pencil sketch.",
+      "image": "assets/images/drawings/drawing-2.jpg",
       "date": "2026"
     },
     {
       "id": "drawing-3",
-      "title": "Still life",
-      "caption": "Books and tea.",
-      "image": "assets/images/drawings/still-life.svg",
-      "date": "2025"
+      "title": "Drawing 3",
+      "caption": "Pencil sketch.",
+      "image": "assets/images/drawings/drawing-3.jpg",
+      "date": "2026"
+    },
+    {
+      "id": "drawing-4",
+      "title": "Drawing 4",
+      "caption": "Pencil sketch.",
+      "image": "assets/images/drawings/drawing-4.jpg",
+      "date": "2026"
     }
   ],
   "books": [
