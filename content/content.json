@@ -2,29 +2,29 @@
   "drawings": [
     {
       "id": "drawing-1",
-      "title": "Drawing 1",
-      "caption": "Pencil sketch.",
+      "title": "Gojo vs Sukuna",
+      "caption": "Jujutsu Kaisen.",
       "image": "assets/images/drawings/drawing-1.jpg",
       "date": "2026"
     },
     {
       "id": "drawing-2",
-      "title": "Drawing 2",
-      "caption": "Pencil sketch.",
+      "title": "Pomni",
+      "caption": "The Amazing Digital Circus.",
       "image": "assets/images/drawings/drawing-2.jpg",
       "date": "2026"
     },
     {
       "id": "drawing-3",
-      "title": "Drawing 3",
-      "caption": "Pencil sketch.",
+      "title": "Goku Ultra Instinct",
+      "caption": "Dragon Ball.",
       "image": "assets/images/drawings/drawing-3.jpg",
       "date": "2026"
     },
     {
       "id": "drawing-4",
-      "title": "Drawing 4",
-      "caption": "Pencil sketch.",
+      "title": "Checkerboard sphere",
+      "caption": "3D optical illusion.",
       "image": "assets/images/drawings/drawing-4.jpg",
       "date": "2026"
     }
