@@ -32,27 +32,59 @@
   "books": [
     {
       "id": "book-1",
-      "title": "When You Reach Me",
-      "author": "Rebecca Stead",
-      "cover": "assets/images/books/when-you-reach-me.svg",
-      "thoughts": "New York. Couldn't put it down.",
+      "title": "Harry Potter series",
+      "author": "J.K. Rowling",
+      "cover": "assets/images/books/harry-potter.jpg",
+      "thoughts": "Magic, friendship, and Hogwarts — I keep rereading it.",
       "date": "2026"
     },
     {
       "id": "book-2",
-      "title": "The Girl Who Drank the Moon",
-      "author": "Kelly Barnhill",
-      "cover": "assets/images/books/girl-drunk-moon.svg",
-      "thoughts": "Strange and beautiful.",
+      "title": "Land of Stories series",
+      "author": "Chris Colfer",
+      "cover": "assets/images/books/land-of-stories.jpg",
+      "thoughts": "Twins fall into fairy tales and it's so fun.",
       "date": "2026"
     },
     {
       "id": "book-3",
-      "title": "Anne of Green Gables",
-      "author": "L.M. Montgomery",
-      "cover": "assets/images/books/anne-green-gables.svg",
-      "thoughts": "Anne feels like a friend.",
-      "date": "2025"
+      "title": "A Tale of Magic series",
+      "author": "Kelly Barnhill",
+      "cover": "assets/images/books/tale-of-magic.jpg",
+      "thoughts": "Sisters, spells, and a world where magic is forbidden.",
+      "date": "2026"
+    },
+    {
+      "id": "book-4",
+      "title": "Percy Jackson series",
+      "author": "Rick Riordan",
+      "cover": "assets/images/books/percy-jackson.jpg",
+      "thoughts": "Greek myths and funny adventures with Percy.",
+      "date": "2026"
+    },
+    {
+      "id": "book-5",
+      "title": "Whatever After series",
+      "author": "Sarah Mlynowski",
+      "cover": "assets/images/books/whatever-after.jpg",
+      "thoughts": "Modern kids stuck inside fairy tales — hilarious.",
+      "date": "2026"
+    },
+    {
+      "id": "book-6",
+      "title": "The Christmas Pig",
+      "author": "J.K. Rowling",
+      "cover": "assets/images/books/christmas-pig.jpg",
+      "thoughts": "Sweet story about a lost toy and courage.",
+      "date": "2026"
+    },
+    {
+      "id": "book-7",
+      "title": "Every Falling Star",
+      "author": "Sungju Lee & Susan McClelland",
+      "cover": "assets/images/books/every-falling-star.jpg",
+      "thoughts": "A real story that made me think about freedom.",
+      "date": "2026"
     }
   ],
   "writing": [
