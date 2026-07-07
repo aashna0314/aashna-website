@@ -81,6 +81,19 @@ h1 {
 
 @media (min-width: 640px) { .photo-row { gap: 0.75rem; } }
 
+.drawings-row {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.drawings-row::-webkit-scrollbar { display: none; }
+
+@media (min-width: 640px) {
+  .drawings-row { overflow-x: visible; }
+}
+
 .photo {
   position: relative;
   cursor: zoom-in;
