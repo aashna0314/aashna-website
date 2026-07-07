@@ -125,11 +125,11 @@ h1 {
 }
 
 .books-row .photo img {
-  height: clamp(3.5rem, 18vw, 5rem);
+  height: clamp(4.25rem, 20vw, 5.75rem);
 }
 
-@media (min-width: 640px) { .books-row .photo img { height: 5rem; } }
-@media (min-width: 768px) { .books-row .photo img { height: 5.5rem; } }
+@media (min-width: 640px) { .books-row .photo img { height: 5.75rem; } }
+@media (min-width: 768px) { .books-row .photo img { height: 6.25rem; } }
 
 .photo {
   position: relative;
@@ -212,6 +212,26 @@ h1 {
   text-wrap: pretty;
 }
 
+.writing-numbered-list {
+  margin: 0;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  max-width: 42rem;
+}
+
+.writing-numbered-list li {
+  color: #000;
+  line-height: 1.7;
+  text-wrap: pretty;
+  padding-left: 0.25rem;
+}
+
+.writing-numbered-list li::marker {
+  font-weight: 500;
+}
+
 .lightbox {
   position: fixed;
   inset: 0;
@@ -275,5 +295,6 @@ h1 {
 @media (max-width: 639px) {
   body { font-size: 15px; }
   .bio p { line-height: 1.65; }
-  .writing-body p { line-height: 1.75; }
+  .writing-body p,
+  .writing-numbered-list li { line-height: 1.75; }
 }
