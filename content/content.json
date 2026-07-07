@@ -1,0 +1,77 @@
+{
+  "drawings": [
+    {
+      "id": "drawing-1",
+      "title": "Ocean at dusk",
+      "caption": "Halifax harbour, sunset.",
+      "image": "assets/images/drawings/ocean-dusk.svg",
+      "date": "2026"
+    },
+    {
+      "id": "drawing-2",
+      "title": "Travel sketch",
+      "caption": "Mountains from a trip.",
+      "image": "assets/images/drawings/travel-sketch.svg",
+      "date": "2026"
+    },
+    {
+      "id": "drawing-3",
+      "title": "Still life",
+      "caption": "Books and tea.",
+      "image": "assets/images/drawings/still-life.svg",
+      "date": "2025"
+    }
+  ],
+  "books": [
+    {
+      "id": "book-1",
+      "title": "When You Reach Me",
+      "author": "Rebecca Stead",
+      "cover": "assets/images/books/when-you-reach-me.svg",
+      "thoughts": "New York. Couldn't put it down.",
+      "date": "2026"
+    },
+    {
+      "id": "book-2",
+      "title": "The Girl Who Drank the Moon",
+      "author": "Kelly Barnhill",
+      "cover": "assets/images/books/girl-drunk-moon.svg",
+      "thoughts": "Strange and beautiful.",
+      "date": "2026"
+    },
+    {
+      "id": "book-3",
+      "title": "Anne of Green Gables",
+      "author": "L.M. Montgomery",
+      "cover": "assets/images/books/anne-green-gables.svg",
+      "thoughts": "Anne feels like a friend.",
+      "date": "2025"
+    }
+  ],
+  "writing": [
+    {
+      "id": "writing-1",
+      "title": "The harbour in winter",
+      "type": "Poem",
+      "date": "Mar 2026",
+      "excerpt": "The water holds the sky like glass — grey on grey, salt and silence beneath.",
+      "link": null
+    },
+    {
+      "id": "writing-2",
+      "title": "On keeping a journal",
+      "type": "Essay",
+      "date": "Feb 2026",
+      "excerpt": "I write every day because paying attention makes ordinary days worth remembering.",
+      "link": null
+    },
+    {
+      "id": "writing-3",
+      "title": "New York",
+      "type": "Poem",
+      "date": "Apr 2026",
+      "excerpt": "Yellow cabs, tall windows, pages turning on the subway.",
+      "link": null
+    }
+  ]
+}
