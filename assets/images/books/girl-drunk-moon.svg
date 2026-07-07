@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Girl Who Drank the Moon">
+  <defs>
+    <linearGradient id="moon-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a3d"/>
+      <stop offset="100%" stop-color="#2d3d5f"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#moon-bg)"/>
+  <circle cx="200" cy="200" r="70" fill="#faf7f2" opacity="0.9"/>
+  <circle cx="220" cy="190" r="65" fill="url(#moon-bg)"/>
+  <path d="M100 400 Q200 350 300 400 T300 500 Q200 480 100 500 Z" fill="#4a8499" opacity="0.4"/>
+  <text x="200" y="440" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#e8b4ad">The Girl Who</text>
+  <text x="200" y="470" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#e8b4ad">Drank the Moon</text>
+  <text x="200" y="540" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#c4a574" letter-spacing="2">KELLY BARNHILL</text>
+</svg>
