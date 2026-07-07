@@ -341,5 +341,6 @@ h1 {
   body { font-size: 15px; }
   .bio p { line-height: 1.65; }
   .writing-body p,
-  .writing-numbered-list li { line-height: 1.75; }
+  .writing-numbered-list li,
+  .writing-excerpt { line-height: 1.75; }
 }
