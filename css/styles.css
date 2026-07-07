@@ -120,9 +120,15 @@ h1 {
 .books-row::-webkit-scrollbar { display: none; }
 
 @media (min-width: 640px) {
-  .drawings-row,
   .books-row { overflow-x: visible; }
 }
+
+.drawings-row .photo img {
+  height: clamp(4rem, 16vw, 6.25rem);
+}
+
+@media (min-width: 640px) { .drawings-row .photo img { height: 6.25rem; } }
+@media (min-width: 768px) { .drawings-row .photo img { height: 7rem; } }
 
 .books-row .photo img {
   height: clamp(4.25rem, 20vw, 5.75rem);
@@ -179,7 +185,46 @@ h1 {
 
 @media (min-width: 640px) { .photo-caption span { font-size: 12px; } }
 
-.writing { display: flex; flex-direction: column; gap: 2.5rem; }
+.writing { display: flex; flex-direction: column; gap: 1.75rem; }
+
+.writing-preview {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+.writing-preview:hover { text-decoration: none; }
+.writing-preview:hover .writing-title { text-decoration: underline; }
+
+.writing-excerpt {
+  margin-top: 0.5rem;
+  color: #444;
+  line-height: 1.65;
+  text-wrap: pretty;
+}
+
+.writing-page .back-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-size: 14px;
+  color: #444;
+}
+
+.writing-page .back-link:hover { color: #000; }
+
+.writing-page-header { margin-bottom: 1.5rem; }
+
+.writing-page-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.25rem;
+  line-height: 1.35;
+}
+
+@media (min-width: 640px) {
+  .writing-page-title { font-size: 1.5rem; }
+}
 
 .writing-item { color: #000; }
 
