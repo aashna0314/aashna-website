@@ -33,11 +33,12 @@ function renderRows(container, items, captionFn) {
 }
 
 function renderDrawings(items) {
-  renderRows(
-    document.getElementById("drawings-gallery"),
-    items,
-    (d) => d.title
-  );
+  const container = document.getElementById("drawings-gallery");
+  if (!items.length) {
+    container.innerHTML = `<p style="color:#666">Add items in content/content.json</p>`;
+    return;
+  }
+  container.innerHTML = `<div class="photo-row drawings-row">${items.map((d) => photoItem(d, d.title)).join("")}</div>`;
 }
 
 function renderBooks(items) {
