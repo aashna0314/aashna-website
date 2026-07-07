@@ -8,28 +8,12 @@ async function loadContent() {
   }
 }
 
-function chunk(arr, size) {
-  const rows = [];
-  for (let i = 0; i < arr.length; i += size) rows.push(arr.slice(i, i + size));
-  return rows;
-}
-
 function photoItem(item, caption) {
   return `
     <div class="photo" data-image="${item.image}" data-caption="${caption}">
       <img src="${item.image}" alt="${item.title}" loading="lazy" decoding="async">
       <div class="photo-caption"><span>${caption}</span></div>
     </div>`;
-}
-
-function renderRows(container, items, captionFn) {
-  if (!items.length) {
-    container.innerHTML = `<p style="color:#666">Add items in content/content.json</p>`;
-    return;
-  }
-  container.innerHTML = chunk(items, 3)
-    .map((row) => `<div class="photo-row">${row.map((item) => photoItem(item, captionFn(item))).join("")}</div>`)
-    .join("");
 }
 
 function renderDrawings(items) {
@@ -42,11 +26,14 @@ function renderDrawings(items) {
 }
 
 function renderBooks(items) {
-  renderRows(
-    document.getElementById("books-grid"),
-    items.map((b) => ({ ...b, image: b.cover })),
-    (b) => b.title
-  );
+  const container = document.getElementById("books-grid");
+  if (!items.length) {
+    container.innerHTML = `<p style="color:#666">Add books in content/content.json</p>`;
+    return;
+  }
+  container.innerHTML = `<div class="photo-row books-row">${items
+    .map((b) => photoItem({ ...b, image: b.cover }, b.title))
+    .join("")}</div>`;
 }
 
 function renderWriting(items) {
