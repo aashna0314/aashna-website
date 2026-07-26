@@ -41,6 +41,13 @@
       "caption": "Demon Slayer.",
       "image": "assets/images/drawings/drawing-6.jpg",
       "date": "2026"
+    },
+    {
+      "id": "drawing-7",
+      "title": "Lake and mountains",
+      "caption": "Pencil sketch.",
+      "image": "assets/images/drawings/drawing-7.jpg",
+      "date": "2026"
     }
   ],
   "paintings": [
