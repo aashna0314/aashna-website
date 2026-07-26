@@ -106,6 +106,7 @@ h1 {
 @media (min-width: 640px) { .photo-row { gap: 0.75rem; } }
 
 .drawings-row,
+.paintings-row,
 .books-row {
   flex-wrap: nowrap;
   overflow-x: auto;
@@ -117,18 +118,27 @@ h1 {
 }
 
 .drawings-row::-webkit-scrollbar,
+.paintings-row::-webkit-scrollbar,
 .books-row::-webkit-scrollbar { display: none; }
 
 @media (min-width: 640px) {
   .books-row { overflow-x: visible; }
 }
 
-.drawings-row .photo img {
+.drawings-row .photo img,
+.paintings-row .photo img {
   height: clamp(4rem, 16vw, 6.25rem);
 }
 
-@media (min-width: 640px) { .drawings-row .photo img { height: 6.25rem; } }
-@media (min-width: 768px) { .drawings-row .photo img { height: 7rem; } }
+@media (min-width: 640px) {
+  .drawings-row .photo img,
+  .paintings-row .photo img { height: 6.25rem; }
+}
+
+@media (min-width: 768px) {
+  .drawings-row .photo img,
+  .paintings-row .photo img { height: 7rem; }
+}
 
 .books-row .photo img {
   height: clamp(4.25rem, 20vw, 5.75rem);
