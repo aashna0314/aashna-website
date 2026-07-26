@@ -4,7 +4,7 @@ async function loadContent() {
     if (!res.ok) throw new Error();
     return await res.json();
   } catch {
-    return { drawings: [], books: [], writing: [] };
+    return { drawings: [], paintings: [], books: [], writing: [] };
   }
 }
 
@@ -23,6 +23,15 @@ function renderDrawings(items) {
     return;
   }
   container.innerHTML = `<div class="photo-row drawings-row">${items.map((d) => photoItem(d, d.title)).join("")}</div>`;
+}
+
+function renderPaintings(items) {
+  const container = document.getElementById("paintings-gallery");
+  if (!items.length) {
+    container.innerHTML = `<p style="color:#666">Add items in content/content.json</p>`;
+    return;
+  }
+  container.innerHTML = `<div class="photo-row paintings-row">${items.map((p) => photoItem(p, p.title)).join("")}</div>`;
 }
 
 function renderBooks(items) {
@@ -86,6 +95,7 @@ function initLightbox() {
 async function init() {
   const data = await loadContent();
   renderDrawings(data.drawings);
+  renderPaintings(data.paintings || []);
   renderBooks(data.books);
   renderWriting(data.writing);
   initLightbox();
