@@ -43,6 +43,27 @@
       "caption": "Acrylic painting.",
       "image": "assets/images/paintings/painting-1.jpg",
       "date": "2026"
+    },
+    {
+      "id": "painting-2",
+      "title": "Mountain under the moon",
+      "caption": "Acrylic painting.",
+      "image": "assets/images/paintings/painting-2.jpg",
+      "date": "2026"
+    },
+    {
+      "id": "painting-3",
+      "title": "Couple under the moon",
+      "caption": "Acrylic painting.",
+      "image": "assets/images/paintings/painting-3.jpg",
+      "date": "2026"
+    },
+    {
+      "id": "painting-4",
+      "title": "Snowy cottages",
+      "caption": "Acrylic painting.",
+      "image": "assets/images/paintings/painting-4.jpg",
+      "date": "2026"
     }
   ],
   "books": [
