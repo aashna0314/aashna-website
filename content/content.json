@@ -36,6 +36,15 @@
       "date": "2026"
     }
   ],
+  "paintings": [
+    {
+      "id": "painting-1",
+      "title": "Night bridge with cherry blossoms",
+      "caption": "Acrylic painting.",
+      "image": "assets/images/paintings/painting-1.jpg",
+      "date": "2026"
+    }
+  ],
   "books": [
     {
       "id": "book-1",
