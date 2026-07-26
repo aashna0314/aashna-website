@@ -87,6 +87,15 @@
       "date": "2026"
     }
   ],
+  "dance": [
+    {
+      "id": "dance-1",
+      "title": "Bollywood Gala performance",
+      "event": "IFCNS Bollywood Gala",
+      "url": "https://youtu.be/p2y4dZGU53s",
+      "date": "Nov 2024"
+    }
+  ],
   "books": [
     {
       "id": "book-1",
