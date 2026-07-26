@@ -34,6 +34,13 @@
       "caption": "3D optical illusion.",
       "image": "assets/images/drawings/drawing-4.jpg",
       "date": "2026"
+    },
+    {
+      "id": "drawing-6",
+      "title": "Giyu Tomioka",
+      "caption": "Demon Slayer.",
+      "image": "assets/images/drawings/drawing-6.jpg",
+      "date": "2026"
     }
   ],
   "paintings": [
