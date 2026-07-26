@@ -78,6 +78,13 @@
       "caption": "Acrylic painting.",
       "image": "assets/images/paintings/painting-4.jpg",
       "date": "2026"
+    },
+    {
+      "id": "painting-5",
+      "title": "Palm beach at sunset",
+      "caption": "Acrylic painting.",
+      "image": "assets/images/paintings/painting-5.jpg",
+      "date": "2026"
     }
   ],
   "books": [
